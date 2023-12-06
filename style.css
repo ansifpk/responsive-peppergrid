@@ -1,0 +1,162 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+
+.header-section{
+    background-color: black;
+  
+ 
+
+
+}
+.header-section .title{
+    background-color:black;
+    flex-wrap: wrap;
+    list-style: none;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+   
+  
+    margin-bottom: 1px;
+}.header-section .title a{
+    text-decoration: none;
+    color: white;
+    flex-wrap: wrap;
+
+}
+
+.second-header-section{
+     display: flex;
+     background-color:black;
+      flex-wrap: wrap;
+     justify-content:space-around;
+     align-items: center;
+    
+  
+
+
+   
+}
+
+.logo img{
+width:200px ;
+height: 100px;
+padding: 30px;
+
+
+
+
+ 
+
+    
+}.toggle-logo {
+    display: none;   
+    color: white;
+
+    
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    
+}.menu li{
+    margin: 0 40px 0 40px; 
+}
+.menu li a{
+    text-decoration: none;
+    color:white;
+
+}
+.icons i{
+    color: white;
+    padding: 20px;
+
+
+
+}img{
+    width: 100%;
+}.container.row img{
+    height: 338px;
+    width: 338px;
+}
+
+.foot{
+    height: 300px;
+    background-color: black;
+    margin-top: 20px;
+ 
+    text-align: center;
+}.foot ul{
+    list-style: none;
+    color: white;
+  
+}.foot ul a{
+    text-decoration: none;
+    color: white;
+}.last{
+    height: 100px;
+  background-color: black;
+ 
+
+}.lists{
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+   
+}#list{
+    list-style: none;
+    color: white;
+
+}.lists li{
+    margin:0 10px 0 10px ;
+}
+
+.lists li a{
+   
+    color: white;
+  
+}
+  
+
+
+@media(max-width:982px){
+    .toggle-logo {
+
+        display:block ;
+        padding-left: 20px;
+      
+    }
+    .menu{
+
+        display: none;
+
+    }.menu{
+        background-color: black;
+        width:100%;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 100px;
+    }
+    .menu.is-active{
+
+        display: block;
+
+    }
+        .logo img{
+        width:200px ;
+        height: 100px;
+        margin: 0 auto;
+    }.second-header-section{
+        justify-content: space-between;
+    }
+}
+
+
